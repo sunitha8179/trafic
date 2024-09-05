@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    var day = prompt("enter a day ");
+   if(day=="monday"){
+    console.log("its monday");
+    console.log("start your week");
+    }
+    else if(day=="tuesday"){
+        console.log("its tuesday");
+        console.log("its a working day");
+        }
+        else if(day=="wenesday"){
+        console.log("its wenesday");
+        console.log("its happy day");
+        }
+        else if(day=="thursday"){
+        console.log("its thursday");
+        console.log("almost weekend");
+        }
+        else if(day=="friday"){
+        console.log("its friday");
+        console.log("happy friday");
+        }
+        else if(day=="saturday"){
+        console.log("its saturday");
+        console.log("its a holiday");
+        }
+        else if(day=="sunday"){
+        console.log("its sunday");
+        console.log("its holiday");
+        }
+   else{
+    alert("enter a valid day");
+   }
+  var discount=prompt("enter amount");
+  if(discount<=50){
+    console.log("no discount");
+    
+
+  }
+  else if(discount<=20){
+    console.log("20%discount");
+  }
+  else if(discount<=30){
+    console.log("no discount");
+  }
+  else{
+    alert("enter a valid discount");
+  }
+
+
+  var dish=prompt("enter dish(only order with dosa ,pasta,biryani)");
+switch(dish){
+ case " biryani": console.log(" biryani cost : rs 200");
+ 
+  case " dosa ": console.log("dosa cost : rs 300");
+
+ case " water": console.log("water cost : rs 500");
+
+ case "pasta": console.log("pasta cost : rs 150");
+
+ case "veg curry": console.log("veg curry cost : rs 250");
+
+ default: console.log("enter the menu items only");
+
+}
+</script>
+
+
+</body>
+</html>
